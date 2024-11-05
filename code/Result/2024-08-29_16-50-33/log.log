@@ -1,0 +1,160 @@
+2024-08-29 16:50:39,830 - log.log - INFO - Namespace(autoaug=False, batch_size=8, data_path='/home/amhs/recog/data', device=device(type='cpu'), epochs=50, lr=0.01, lr_gamma=0.1, lr_step_size=20, model='resnet50', momentum=0.9, opt='sgd', output_dir='./Result', print_freq=20, random_seed=42, resume='', start_epoch=0, useplateau=False, weight_decay=0.0001, workers=16)
+2024-08-29 16:50:39,830 - log.log - INFO - Start training
+2024-08-29 16:50:49,985 - log.log - INFO - train: [  19/40]  Time: 0.450 (0.508)  Loss:  1.8511 (2.3818)  Acc@1: 37.5000 (39.3750)  Acc@5: 100.0000 (71.8750)
+2024-08-29 16:50:56,738 - log.log - INFO - train: [  39/40]  Time: 0.303 (0.423)  Loss:  2.8555 (2.4778)  Acc@1: 25.0000 (42.1875)  Acc@5: 50.0000 (72.8125)
+2024-08-29 16:50:58,928 - log.log - INFO - Epoch: [000/050]  Time: 19.097 (19.097)  Train Loss avg: 2.4920  Valid Loss avg: 10.0195  Train Acc@1 avg:  41.9753   Valid Acc@1 avg: 13.3333    LR: 0.01
+2024-08-29 16:51:01,611 - log.log - INFO - save ckpt done! best acc:13.333333269755046, epoch:0
+2024-08-29 16:51:13,362 - log.log - INFO - train: [  19/40]  Time: 0.296 (0.587)  Loss:  2.8069 (2.2415)  Acc@1: 37.5000 (44.3750)  Acc@5: 50.0000 (76.2500)
+2024-08-29 16:51:20,155 - log.log - INFO - train: [  39/40]  Time: 0.554 (0.464)  Loss:  0.9664 (2.0329)  Acc@1: 87.5000 (50.3125)  Acc@5: 100.0000 (78.1250)
+2024-08-29 16:51:23,382 - log.log - INFO - Epoch: [001/050]  Time: 24.454 (21.776)  Train Loss avg: 2.0234  Valid Loss avg: 2.2560  Train Acc@1 avg:  50.3086   Valid Acc@1 avg: 46.6667    LR: 0.01
+2024-08-29 16:51:26,249 - log.log - INFO - save ckpt done! best acc:46.66666768391927, epoch:1
+2024-08-29 16:51:39,161 - log.log - INFO - train: [  19/40]  Time: 0.298 (0.646)  Loss:  0.5334 (1.5576)  Acc@1: 75.0000 (53.7500)  Acc@5: 100.0000 (83.1250)
+2024-08-29 16:51:45,241 - log.log - INFO - train: [  39/40]  Time: 0.321 (0.475)  Loss:  0.5198 (1.4173)  Acc@1: 87.5000 (60.3125)  Acc@5: 100.0000 (85.9375)
+2024-08-29 16:51:48,419 - log.log - INFO - Epoch: [002/050]  Time: 25.037 (22.863)  Train Loss avg: 1.4099  Valid Loss avg: 4.8465  Train Acc@1 avg:  60.4938   Valid Acc@1 avg: 60.0000    LR: 0.01
+2024-08-29 16:51:51,218 - log.log - INFO - save ckpt done! best acc:59.99999974568685, epoch:2
+2024-08-29 16:52:02,854 - log.log - INFO - train: [  19/40]  Time: 0.247 (0.582)  Loss:  1.0783 (1.2059)  Acc@1: 62.5000 (56.8750)  Acc@5: 87.5000 (93.1250)
+2024-08-29 16:52:09,285 - log.log - INFO - train: [  39/40]  Time: 0.266 (0.452)  Loss:  0.8817 (1.3287)  Acc@1: 75.0000 (58.1250)  Acc@5: 100.0000 (90.6250)
+2024-08-29 16:52:12,230 - log.log - INFO - Epoch: [003/050]  Time: 23.811 (23.100)  Train Loss avg: 1.3304  Valid Loss avg: 3.8826  Train Acc@1 avg:  58.0247   Valid Acc@1 avg: 13.3333    LR: 0.01
+2024-08-29 16:52:26,832 - log.log - INFO - train: [  19/40]  Time: 0.270 (0.608)  Loss:  1.3099 (1.2834)  Acc@1: 62.5000 (61.8750)  Acc@5: 87.5000 (93.1250)
+2024-08-29 16:52:32,470 - log.log - INFO - train: [  39/40]  Time: 0.275 (0.445)  Loss:  0.8705 (1.2243)  Acc@1: 75.0000 (64.3750)  Acc@5: 100.0000 (93.1250)
+2024-08-29 16:52:36,119 - log.log - INFO - Epoch: [004/050]  Time: 23.888 (23.258)  Train Loss avg: 1.2226  Valid Loss avg: 1.3482  Train Acc@1 avg:  64.5062   Valid Acc@1 avg: 60.0000    LR: 0.01
+2024-08-29 16:52:52,545 - log.log - INFO - train: [  19/40]  Time: 0.365 (0.702)  Loss:  0.7136 (1.1082)  Acc@1: 75.0000 (68.7500)  Acc@5: 100.0000 (95.6250)
+2024-08-29 16:53:00,884 - log.log - INFO - train: [  39/40]  Time: 0.881 (0.559)  Loss:  0.8624 (0.9803)  Acc@1: 62.5000 (72.8125)  Acc@5: 100.0000 (96.2500)
+2024-08-29 16:53:04,181 - log.log - INFO - Epoch: [005/050]  Time: 28.063 (24.058)  Train Loss avg: 0.9697  Valid Loss avg: 4.6852  Train Acc@1 avg:  73.1481   Valid Acc@1 avg: 66.6667    LR: 0.01
+2024-08-29 16:53:07,056 - log.log - INFO - save ckpt done! best acc:66.66666641235352, epoch:5
+2024-08-29 16:53:19,547 - log.log - INFO - train: [  19/40]  Time: 0.269 (0.624)  Loss:  1.8095 (0.7643)  Acc@1: 25.0000 (76.8750)  Acc@5: 87.5000 (96.2500)
+2024-08-29 16:53:25,406 - log.log - INFO - train: [  39/40]  Time: 0.298 (0.459)  Loss:  2.6003 (0.9560)  Acc@1: 37.5000 (72.1875)  Acc@5: 75.0000 (95.9375)
+2024-08-29 16:53:28,549 - log.log - INFO - Epoch: [006/050]  Time: 24.368 (24.103)  Train Loss avg: 0.9605  Valid Loss avg: 1.2146  Train Acc@1 avg:  72.2222   Valid Acc@1 avg: 60.0000    LR: 0.01
+2024-08-29 16:53:45,179 - log.log - INFO - train: [  19/40]  Time: 0.317 (0.708)  Loss:  0.4129 (0.8592)  Acc@1: 87.5000 (74.3750)  Acc@5: 100.0000 (96.8750)
+2024-08-29 16:53:51,279 - log.log - INFO - train: [  39/40]  Time: 0.268 (0.506)  Loss:  1.7094 (0.8784)  Acc@1: 37.5000 (75.0000)  Acc@5: 87.5000 (96.8750)
+2024-08-29 16:53:54,287 - log.log - INFO - Epoch: [007/050]  Time: 25.737 (24.307)  Train Loss avg: 0.8693  Valid Loss avg: 0.6151  Train Acc@1 avg:  75.3086   Valid Acc@1 avg: 93.3333    LR: 0.01
+2024-08-29 16:53:56,911 - log.log - INFO - save ckpt done! best acc:93.33333384195963, epoch:7
+2024-08-29 16:54:07,378 - log.log - INFO - train: [  19/40]  Time: 0.366 (0.523)  Loss:  1.4698 (0.9008)  Acc@1: 50.0000 (74.3750)  Acc@5: 100.0000 (95.6250)
+2024-08-29 16:54:13,101 - log.log - INFO - train: [  39/40]  Time: 0.274 (0.405)  Loss:  0.6239 (0.7694)  Acc@1: 87.5000 (77.8125)  Acc@5: 100.0000 (96.2500)
+2024-08-29 16:54:16,342 - log.log - INFO - Epoch: [008/050]  Time: 22.056 (24.057)  Train Loss avg: 0.7610  Valid Loss avg: 1.3999  Train Acc@1 avg:  78.0864   Valid Acc@1 avg: 66.6667    LR: 0.01
+2024-08-29 16:54:30,546 - log.log - INFO - train: [  19/40]  Time: 0.289 (0.591)  Loss:  0.6638 (0.5488)  Acc@1: 62.5000 (78.7500)  Acc@5: 100.0000 (99.3750)
+2024-08-29 16:54:36,605 - log.log - INFO - train: [  39/40]  Time: 0.316 (0.447)  Loss:  0.2476 (0.6324)  Acc@1: 87.5000 (77.8125)  Acc@5: 100.0000 (97.5000)
+2024-08-29 16:54:39,718 - log.log - INFO - Epoch: [009/050]  Time: 23.376 (23.989)  Train Loss avg: 0.6275  Valid Loss avg: 1.8745  Train Acc@1 avg:  78.0864   Valid Acc@1 avg: 73.3333    LR: 0.01
+2024-08-29 16:54:55,655 - log.log - INFO - train: [  19/40]  Time: 0.286 (0.674)  Loss:  1.2496 (0.7128)  Acc@1: 62.5000 (80.6250)  Acc@5: 100.0000 (98.7500)
+2024-08-29 16:55:01,471 - log.log - INFO - train: [  39/40]  Time: 0.246 (0.482)  Loss:  0.3669 (0.6510)  Acc@1: 87.5000 (81.8750)  Acc@5: 100.0000 (97.8125)
+2024-08-29 16:55:04,878 - log.log - INFO - Epoch: [010/050]  Time: 25.160 (24.095)  Train Loss avg: 0.6450  Valid Loss avg: 0.4218  Train Acc@1 avg:  82.0988   Valid Acc@1 avg: 80.0000    LR: 0.01
+2024-08-29 16:55:19,600 - log.log - INFO - train: [  19/40]  Time: 0.248 (0.617)  Loss:  0.6294 (0.7073)  Acc@1: 62.5000 (81.2500)  Acc@5: 100.0000 (98.1250)
+2024-08-29 16:55:24,800 - log.log - INFO - train: [  39/40]  Time: 0.257 (0.438)  Loss:  0.0327 (0.6858)  Acc@1: 100.0000 (80.9375)  Acc@5: 100.0000 (97.1875)
+2024-08-29 16:55:27,622 - log.log - INFO - Epoch: [011/050]  Time: 22.744 (23.983)  Train Loss avg: 0.6820  Valid Loss avg: 1.1989  Train Acc@1 avg:  80.8642   Valid Acc@1 avg: 66.6667    LR: 0.01
+2024-08-29 16:55:47,873 - log.log - INFO - train: [  19/40]  Time: 1.803 (0.890)  Loss:  0.6531 (0.4879)  Acc@1: 75.0000 (84.3750)  Acc@5: 100.0000 (98.7500)
+2024-08-29 16:55:53,875 - log.log - INFO - train: [  39/40]  Time: 0.249 (0.595)  Loss:  0.8741 (0.4387)  Acc@1: 75.0000 (85.6250)  Acc@5: 100.0000 (98.7500)
+2024-08-29 16:55:57,013 - log.log - INFO - Epoch: [012/050]  Time: 29.391 (24.399)  Train Loss avg: 0.4479  Valid Loss avg: 1.1933  Train Acc@1 avg:  85.1852   Valid Acc@1 avg: 73.3333    LR: 0.01
+2024-08-29 16:56:12,094 - log.log - INFO - train: [  19/40]  Time: 0.320 (0.635)  Loss:  0.2045 (0.2941)  Acc@1: 87.5000 (90.0000)  Acc@5: 100.0000 (98.7500)
+2024-08-29 16:56:18,718 - log.log - INFO - train: [  39/40]  Time: 0.601 (0.483)  Loss:  1.3175 (0.4160)  Acc@1: 87.5000 (87.8125)  Acc@5: 100.0000 (98.4375)
+2024-08-29 16:56:21,696 - log.log - INFO - Epoch: [013/050]  Time: 24.683 (24.419)  Train Loss avg: 0.4133  Valid Loss avg: 2.4672  Train Acc@1 avg:  87.9630   Valid Acc@1 avg: 86.6667    LR: 0.01
+2024-08-29 16:56:35,396 - log.log - INFO - train: [  19/40]  Time: 0.247 (0.564)  Loss:  0.4751 (0.3574)  Acc@1: 75.0000 (91.2500)  Acc@5: 100.0000 (99.3750)
+2024-08-29 16:56:40,669 - log.log - INFO - train: [  39/40]  Time: 0.287 (0.414)  Loss:  1.4182 (0.4246)  Acc@1: 62.5000 (87.8125)  Acc@5: 100.0000 (98.7500)
+2024-08-29 16:56:43,679 - log.log - INFO - Epoch: [014/050]  Time: 21.983 (24.257)  Train Loss avg: 0.4326  Valid Loss avg: 3.2511  Train Acc@1 avg:  87.3457   Valid Acc@1 avg: 73.3333    LR: 0.01
+2024-08-29 16:56:57,614 - log.log - INFO - train: [  19/40]  Time: 0.254 (0.574)  Loss:  0.4973 (0.3624)  Acc@1: 87.5000 (86.8750)  Acc@5: 87.5000 (99.3750)
+2024-08-29 16:57:03,437 - log.log - INFO - train: [  39/40]  Time: 0.361 (0.433)  Loss:  2.2471 (0.4889)  Acc@1: 50.0000 (84.0625)  Acc@5: 87.5000 (98.7500)
+2024-08-29 16:57:06,829 - log.log - INFO - Epoch: [015/050]  Time: 23.151 (24.187)  Train Loss avg: 0.4831  Valid Loss avg: 0.6876  Train Acc@1 avg:  84.2593   Valid Acc@1 avg: 86.6667    LR: 0.01
+2024-08-29 16:57:20,668 - log.log - INFO - train: [  19/40]  Time: 0.260 (0.572)  Loss:  0.5119 (0.4616)  Acc@1: 87.5000 (84.3750)  Acc@5: 87.5000 (99.3750)
+2024-08-29 16:57:26,762 - log.log - INFO - train: [  39/40]  Time: 0.275 (0.438)  Loss:  0.0236 (0.4283)  Acc@1: 100.0000 (86.5625)  Acc@5: 100.0000 (99.6875)
+2024-08-29 16:57:30,385 - log.log - INFO - Epoch: [016/050]  Time: 23.556 (24.150)  Train Loss avg: 0.4265  Valid Loss avg: 0.4440  Train Acc@1 avg:  86.7284   Valid Acc@1 avg: 80.0000    LR: 0.01
+2024-08-29 16:57:43,935 - log.log - INFO - train: [  19/40]  Time: 0.266 (0.558)  Loss:  0.2242 (0.2802)  Acc@1: 87.5000 (90.6250)  Acc@5: 100.0000 (99.3750)
+2024-08-29 16:57:49,118 - log.log - INFO - train: [  39/40]  Time: 0.252 (0.409)  Loss:  0.2792 (0.2610)  Acc@1: 87.5000 (91.8750)  Acc@5: 100.0000 (99.3750)
+2024-08-29 16:57:52,200 - log.log - INFO - Epoch: [017/050]  Time: 21.815 (24.020)  Train Loss avg: 0.2666  Valid Loss avg: 0.6003  Train Acc@1 avg:  91.6667   Valid Acc@1 avg: 86.6667    LR: 0.01
+2024-08-29 16:58:08,744 - log.log - INFO - train: [  19/40]  Time: 0.783 (0.701)  Loss:  0.0173 (0.2372)  Acc@1: 100.0000 (93.7500)  Acc@5: 100.0000 (100.0000)
+2024-08-29 16:58:14,574 - log.log - INFO - train: [  39/40]  Time: 0.248 (0.496)  Loss:  0.2428 (0.2241)  Acc@1: 87.5000 (94.0625)  Acc@5: 100.0000 (100.0000)
+2024-08-29 16:58:17,781 - log.log - INFO - Epoch: [018/050]  Time: 25.582 (24.103)  Train Loss avg: 0.2230  Valid Loss avg: 0.2927  Train Acc@1 avg:  94.1358   Valid Acc@1 avg: 80.0000    LR: 0.01
+2024-08-29 16:58:32,424 - log.log - INFO - train: [  19/40]  Time: 0.305 (0.606)  Loss:  0.0131 (0.1510)  Acc@1: 100.0000 (95.0000)  Acc@5: 100.0000 (100.0000)
+2024-08-29 16:58:38,800 - log.log - INFO - train: [  39/40]  Time: 0.260 (0.462)  Loss:  0.2591 (0.1651)  Acc@1: 87.5000 (94.6875)  Acc@5: 100.0000 (100.0000)
+2024-08-29 16:58:41,578 - log.log - INFO - Epoch: [019/050]  Time: 23.797 (24.087)  Train Loss avg: 0.1633  Valid Loss avg: 0.3269  Train Acc@1 avg:  94.7531   Valid Acc@1 avg: 86.6667    LR: 0.01
+2024-08-29 16:58:54,459 - log.log - INFO - train: [  19/40]  Time: 0.289 (0.525)  Loss:  0.2808 (0.1730)  Acc@1: 87.5000 (96.2500)  Acc@5: 100.0000 (100.0000)
+2024-08-29 16:58:59,550 - log.log - INFO - train: [  39/40]  Time: 0.246 (0.390)  Loss:  0.2346 (0.1537)  Acc@1: 87.5000 (95.6250)  Acc@5: 100.0000 (99.6875)
+2024-08-29 16:59:02,605 - log.log - INFO - Epoch: [020/050]  Time: 21.026 (23.942)  Train Loss avg: 0.1518  Valid Loss avg: 0.1875  Train Acc@1 avg:  95.6790   Valid Acc@1 avg: 86.6667    LR: 0.001
+2024-08-29 16:59:17,792 - log.log - INFO - train: [  19/40]  Time: 0.248 (0.639)  Loss:  0.0151 (0.0867)  Acc@1: 100.0000 (97.5000)  Acc@5: 100.0000 (100.0000)
+2024-08-29 16:59:23,372 - log.log - INFO - train: [  39/40]  Time: 0.259 (0.459)  Loss:  0.0054 (0.0851)  Acc@1: 100.0000 (97.8125)  Acc@5: 100.0000 (100.0000)
+2024-08-29 16:59:26,288 - log.log - INFO - Epoch: [021/050]  Time: 23.683 (23.930)  Train Loss avg: 0.0844  Valid Loss avg: 0.0839  Train Acc@1 avg:  97.8395   Valid Acc@1 avg: 100.0000    LR: 0.001
+2024-08-29 16:59:28,952 - log.log - INFO - save ckpt done! best acc:100.0, epoch:21
+2024-08-29 16:59:39,445 - log.log - INFO - train: [  19/40]  Time: 0.246 (0.525)  Loss:  0.0055 (0.1106)  Acc@1: 100.0000 (96.2500)  Acc@5: 100.0000 (100.0000)
+2024-08-29 16:59:45,311 - log.log - INFO - train: [  39/40]  Time: 0.260 (0.409)  Loss:  0.0322 (0.0983)  Acc@1: 100.0000 (96.5625)  Acc@5: 100.0000 (99.6875)
+2024-08-29 16:59:48,401 - log.log - INFO - Epoch: [022/050]  Time: 22.113 (23.851)  Train Loss avg: 0.0972  Valid Loss avg: 0.1217  Train Acc@1 avg:  96.6049   Valid Acc@1 avg: 93.3333    LR: 0.001
+2024-08-29 17:00:04,302 - log.log - INFO - train: [  19/40]  Time: 0.271 (0.674)  Loss:  0.0271 (0.0806)  Acc@1: 100.0000 (97.5000)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:00:09,801 - log.log - INFO - train: [  39/40]  Time: 0.245 (0.474)  Loss:  0.0189 (0.1015)  Acc@1: 100.0000 (97.1875)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:00:12,699 - log.log - INFO - Epoch: [023/050]  Time: 24.299 (23.870)  Train Loss avg: 0.1005  Valid Loss avg: 0.1150  Train Acc@1 avg:  97.2222   Valid Acc@1 avg: 93.3333    LR: 0.001
+2024-08-29 17:00:25,939 - log.log - INFO - train: [  19/40]  Time: 0.338 (0.540)  Loss:  0.0361 (0.0752)  Acc@1: 100.0000 (98.1250)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:00:31,883 - log.log - INFO - train: [  39/40]  Time: 0.291 (0.418)  Loss:  0.0153 (0.0767)  Acc@1: 100.0000 (97.8125)  Acc@5: 100.0000 (99.6875)
+2024-08-29 17:00:34,780 - log.log - INFO - Epoch: [024/050]  Time: 22.081 (23.798)  Train Loss avg: 0.0758  Valid Loss avg: 0.0809  Train Acc@1 avg:  97.8395   Valid Acc@1 avg: 93.3333    LR: 0.001
+2024-08-29 17:00:48,072 - log.log - INFO - train: [  19/40]  Time: 0.251 (0.545)  Loss:  0.0071 (0.0538)  Acc@1: 100.0000 (98.7500)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:00:54,605 - log.log - INFO - train: [  39/40]  Time: 0.314 (0.436)  Loss:  0.0092 (0.0715)  Acc@1: 100.0000 (97.5000)  Acc@5: 100.0000 (99.6875)
+2024-08-29 17:00:57,580 - log.log - INFO - Epoch: [025/050]  Time: 22.800 (23.760)  Train Loss avg: 0.0784  Valid Loss avg: 0.1107  Train Acc@1 avg:  97.2222   Valid Acc@1 avg: 93.3333    LR: 0.001
+2024-08-29 17:01:11,017 - log.log - INFO - train: [  19/40]  Time: 0.289 (0.546)  Loss:  0.1836 (0.1085)  Acc@1: 87.5000 (96.8750)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:01:16,533 - log.log - INFO - train: [  39/40]  Time: 0.286 (0.411)  Loss:  0.0064 (0.0797)  Acc@1: 100.0000 (97.8125)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:01:19,327 - log.log - INFO - Epoch: [026/050]  Time: 21.748 (23.685)  Train Loss avg: 0.0789  Valid Loss avg: 0.0735  Train Acc@1 avg:  97.8395   Valid Acc@1 avg: 100.0000    LR: 0.001
+2024-08-29 17:01:32,535 - log.log - INFO - train: [  19/40]  Time: 0.245 (0.541)  Loss:  0.2169 (0.0605)  Acc@1: 87.5000 (98.1250)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:01:39,351 - log.log - INFO - train: [  39/40]  Time: 0.251 (0.441)  Loss:  0.0025 (0.0761)  Acc@1: 100.0000 (97.1875)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:01:42,168 - log.log - INFO - Epoch: [027/050]  Time: 22.841 (23.655)  Train Loss avg: 0.0753  Valid Loss avg: 0.0550  Train Acc@1 avg:  97.2222   Valid Acc@1 avg: 100.0000    LR: 0.001
+2024-08-29 17:01:55,350 - log.log - INFO - train: [  19/40]  Time: 0.320 (0.540)  Loss:  0.0071 (0.0353)  Acc@1: 100.0000 (99.3750)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:02:01,063 - log.log - INFO - train: [  39/40]  Time: 0.293 (0.413)  Loss:  0.0027 (0.0683)  Acc@1: 100.0000 (97.8125)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:02:03,890 - log.log - INFO - Epoch: [028/050]  Time: 21.721 (23.588)  Train Loss avg: 0.0676  Valid Loss avg: 0.0440  Train Acc@1 avg:  97.8395   Valid Acc@1 avg: 100.0000    LR: 0.001
+2024-08-29 17:02:19,171 - log.log - INFO - train: [  19/40]  Time: 0.260 (0.640)  Loss:  0.0341 (0.0463)  Acc@1: 100.0000 (98.7500)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:02:25,067 - log.log - INFO - train: [  39/40]  Time: 0.274 (0.467)  Loss:  0.0260 (0.0661)  Acc@1: 100.0000 (98.1250)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:02:27,738 - log.log - INFO - Epoch: [029/050]  Time: 23.849 (23.597)  Train Loss avg: 0.0653  Valid Loss avg: 0.0571  Train Acc@1 avg:  98.1481   Valid Acc@1 avg: 100.0000    LR: 0.001
+2024-08-29 17:02:41,382 - log.log - INFO - train: [  19/40]  Time: 0.332 (0.561)  Loss:  0.0067 (0.0554)  Acc@1: 100.0000 (98.7500)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:02:46,751 - log.log - INFO - train: [  39/40]  Time: 0.244 (0.415)  Loss:  0.0028 (0.0663)  Acc@1: 100.0000 (98.4375)  Acc@5: 100.0000 (99.6875)
+2024-08-29 17:02:49,811 - log.log - INFO - Epoch: [030/050]  Time: 22.073 (23.548)  Train Loss avg: 0.0658  Valid Loss avg: 0.0627  Train Acc@1 avg:  98.4568   Valid Acc@1 avg: 93.3333    LR: 0.001
+2024-08-29 17:03:04,150 - log.log - INFO - train: [  19/40]  Time: 0.261 (0.595)  Loss:  0.0086 (0.0794)  Acc@1: 100.0000 (96.2500)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:03:09,381 - log.log - INFO - train: [  39/40]  Time: 0.256 (0.428)  Loss:  0.0502 (0.0558)  Acc@1: 100.0000 (97.8125)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:03:12,295 - log.log - INFO - Epoch: [031/050]  Time: 22.484 (23.515)  Train Loss avg: 0.0553  Valid Loss avg: 0.0504  Train Acc@1 avg:  97.8395   Valid Acc@1 avg: 100.0000    LR: 0.001
+2024-08-29 17:03:25,235 - log.log - INFO - train: [  19/40]  Time: 0.338 (0.525)  Loss:  0.0039 (0.0309)  Acc@1: 100.0000 (100.0000)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:03:31,424 - log.log - INFO - train: [  39/40]  Time: 0.295 (0.417)  Loss:  0.4010 (0.0584)  Acc@1: 75.0000 (98.4375)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:03:34,070 - log.log - INFO - Epoch: [032/050]  Time: 21.775 (23.462)  Train Loss avg: 0.0578  Valid Loss avg: 0.0529  Train Acc@1 avg:  98.4568   Valid Acc@1 avg: 100.0000    LR: 0.001
+2024-08-29 17:03:49,384 - log.log - INFO - train: [  19/40]  Time: 0.247 (0.646)  Loss:  0.0638 (0.0352)  Acc@1: 100.0000 (99.3750)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:03:54,603 - log.log - INFO - train: [  39/40]  Time: 0.283 (0.453)  Loss:  0.0223 (0.0569)  Acc@1: 100.0000 (98.1250)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:03:57,180 - log.log - INFO - Epoch: [033/050]  Time: 23.110 (23.451)  Train Loss avg: 0.0586  Valid Loss avg: 0.0464  Train Acc@1 avg:  98.1481   Valid Acc@1 avg: 100.0000    LR: 0.001
+2024-08-29 17:04:10,205 - log.log - INFO - train: [  19/40]  Time: 0.336 (0.531)  Loss:  0.0223 (0.0708)  Acc@1: 100.0000 (97.5000)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:04:15,889 - log.log - INFO - train: [  39/40]  Time: 0.261 (0.407)  Loss:  0.0019 (0.0571)  Acc@1: 100.0000 (97.8125)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:04:18,719 - log.log - INFO - Epoch: [034/050]  Time: 21.539 (23.397)  Train Loss avg: 0.0569  Valid Loss avg: 0.0505  Train Acc@1 avg:  97.8395   Valid Acc@1 avg: 100.0000    LR: 0.001
+2024-08-29 17:04:32,828 - log.log - INFO - train: [  19/40]  Time: 0.267 (0.585)  Loss:  0.0028 (0.0656)  Acc@1: 100.0000 (98.1250)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:04:38,860 - log.log - INFO - train: [  39/40]  Time: 0.274 (0.443)  Loss:  0.0006 (0.0568)  Acc@1: 100.0000 (98.4375)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:04:41,579 - log.log - INFO - Epoch: [035/050]  Time: 22.860 (23.382)  Train Loss avg: 0.0565  Valid Loss avg: 0.0563  Train Acc@1 avg:  98.4568   Valid Acc@1 avg: 100.0000    LR: 0.001
+2024-08-29 17:04:55,871 - log.log - INFO - train: [  19/40]  Time: 0.401 (0.595)  Loss:  0.0198 (0.0574)  Acc@1: 100.0000 (96.8750)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:05:01,834 - log.log - INFO - train: [  39/40]  Time: 0.289 (0.447)  Loss:  0.0985 (0.0462)  Acc@1: 100.0000 (98.4375)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:05:06,006 - log.log - INFO - Epoch: [036/050]  Time: 24.426 (23.410)  Train Loss avg: 0.0457  Valid Loss avg: 0.0401  Train Acc@1 avg:  98.4568   Valid Acc@1 avg: 100.0000    LR: 0.001
+2024-08-29 17:05:20,563 - log.log - INFO - train: [  19/40]  Time: 0.282 (0.603)  Loss:  0.1064 (0.0528)  Acc@1: 100.0000 (98.7500)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:05:26,637 - log.log - INFO - train: [  39/40]  Time: 0.332 (0.453)  Loss:  0.0071 (0.0506)  Acc@1: 100.0000 (98.7500)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:05:29,407 - log.log - INFO - Epoch: [037/050]  Time: 23.401 (23.410)  Train Loss avg: 0.0504  Valid Loss avg: 0.0452  Train Acc@1 avg:  98.7654   Valid Acc@1 avg: 100.0000    LR: 0.001
+2024-08-29 17:05:41,628 - log.log - INFO - train: [  19/40]  Time: 0.246 (0.491)  Loss:  0.3530 (0.0484)  Acc@1: 87.5000 (98.1250)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:05:47,679 - log.log - INFO - train: [  39/40]  Time: 0.261 (0.397)  Loss:  0.1860 (0.0575)  Acc@1: 87.5000 (98.1250)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:05:50,188 - log.log - INFO - Epoch: [038/050]  Time: 20.781 (23.342)  Train Loss avg: 0.0568  Valid Loss avg: 0.0350  Train Acc@1 avg:  98.1481   Valid Acc@1 avg: 100.0000    LR: 0.001
+2024-08-29 17:06:04,578 - log.log - INFO - train: [  19/40]  Time: 0.304 (0.600)  Loss:  0.0038 (0.0396)  Acc@1: 100.0000 (98.7500)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:06:10,076 - log.log - INFO - train: [  39/40]  Time: 0.257 (0.438)  Loss:  0.1460 (0.0529)  Acc@1: 100.0000 (97.8125)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:06:13,462 - log.log - INFO - Epoch: [039/050]  Time: 23.274 (23.341)  Train Loss avg: 0.0523  Valid Loss avg: 0.0333  Train Acc@1 avg:  97.8395   Valid Acc@1 avg: 100.0000    LR: 0.001
+2024-08-29 17:06:27,307 - log.log - INFO - train: [  19/40]  Time: 0.336 (0.570)  Loss:  0.0389 (0.0476)  Acc@1: 100.0000 (98.1250)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:06:32,504 - log.log - INFO - train: [  39/40]  Time: 0.250 (0.415)  Loss:  0.0859 (0.0540)  Acc@1: 100.0000 (98.1250)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:06:34,945 - log.log - INFO - Epoch: [040/050]  Time: 21.483 (23.295)  Train Loss avg: 0.0539  Valid Loss avg: 0.0440  Train Acc@1 avg:  98.1481   Valid Acc@1 avg: 100.0000    LR: 0.0001
+2024-08-29 17:06:47,947 - log.log - INFO - train: [  19/40]  Time: 0.286 (0.530)  Loss:  0.0423 (0.0484)  Acc@1: 100.0000 (98.1250)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:06:53,872 - log.log - INFO - train: [  39/40]  Time: 0.273 (0.413)  Loss:  0.0533 (0.0472)  Acc@1: 100.0000 (98.4375)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:06:56,429 - log.log - INFO - Epoch: [041/050]  Time: 21.484 (23.252)  Train Loss avg: 0.0468  Valid Loss avg: 0.0486  Train Acc@1 avg:  98.4568   Valid Acc@1 avg: 100.0000    LR: 0.0001
+2024-08-29 17:07:10,569 - log.log - INFO - train: [  19/40]  Time: 0.255 (0.588)  Loss:  0.0019 (0.0244)  Acc@1: 100.0000 (98.7500)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:07:17,499 - log.log - INFO - train: [  39/40]  Time: 0.306 (0.467)  Loss:  0.0015 (0.0579)  Acc@1: 100.0000 (97.5000)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:07:20,410 - log.log - INFO - Epoch: [042/050]  Time: 23.982 (23.269)  Train Loss avg: 0.0577  Valid Loss avg: 0.0544  Train Acc@1 avg:  97.5309   Valid Acc@1 avg: 93.3333    LR: 0.0001
+2024-08-29 17:07:33,497 - log.log - INFO - train: [  19/40]  Time: 0.275 (0.532)  Loss:  0.0030 (0.0452)  Acc@1: 100.0000 (98.7500)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:07:38,829 - log.log - INFO - train: [  39/40]  Time: 0.247 (0.400)  Loss:  0.1839 (0.0478)  Acc@1: 87.5000 (98.4375)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:07:41,304 - log.log - INFO - Epoch: [043/050]  Time: 20.893 (23.215)  Train Loss avg: 0.0481  Valid Loss avg: 0.0305  Train Acc@1 avg:  98.4568   Valid Acc@1 avg: 100.0000    LR: 0.0001
+2024-08-29 17:07:57,858 - log.log - INFO - train: [  19/40]  Time: 0.264 (0.707)  Loss:  0.0130 (0.0585)  Acc@1: 100.0000 (97.5000)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:08:04,188 - log.log - INFO - train: [  39/40]  Time: 0.282 (0.512)  Loss:  0.0014 (0.0419)  Acc@1: 100.0000 (98.4375)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:08:06,721 - log.log - INFO - Epoch: [044/050]  Time: 25.417 (23.264)  Train Loss avg: 0.0437  Valid Loss avg: 0.0709  Train Acc@1 avg:  98.4568   Valid Acc@1 avg: 93.3333    LR: 0.0001
+2024-08-29 17:08:23,419 - log.log - INFO - train: [  19/40]  Time: 0.268 (0.716)  Loss:  0.1502 (0.0381)  Acc@1: 87.5000 (98.7500)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:08:31,362 - log.log - INFO - train: [  39/40]  Time: 0.273 (0.556)  Loss:  0.0135 (0.0421)  Acc@1: 100.0000 (98.7500)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:08:33,800 - log.log - INFO - Epoch: [045/050]  Time: 27.079 (23.347)  Train Loss avg: 0.0417  Valid Loss avg: 0.0464  Train Acc@1 avg:  98.7654   Valid Acc@1 avg: 100.0000    LR: 0.0001
+2024-08-29 17:08:46,891 - log.log - INFO - train: [  19/40]  Time: 0.286 (0.535)  Loss:  0.0051 (0.0446)  Acc@1: 100.0000 (98.7500)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:08:52,585 - log.log - INFO - train: [  39/40]  Time: 0.254 (0.410)  Loss:  0.1532 (0.0486)  Acc@1: 100.0000 (98.7500)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:08:55,178 - log.log - INFO - Epoch: [046/050]  Time: 21.378 (23.305)  Train Loss avg: 0.0548  Valid Loss avg: 0.0575  Train Acc@1 avg:  98.4568   Valid Acc@1 avg: 93.3333    LR: 0.0001
+2024-08-29 17:09:10,123 - log.log - INFO - train: [  19/40]  Time: 0.254 (0.624)  Loss:  0.0538 (0.0400)  Acc@1: 100.0000 (98.7500)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:09:15,638 - log.log - INFO - train: [  39/40]  Time: 0.291 (0.450)  Loss:  0.0115 (0.0416)  Acc@1: 100.0000 (98.7500)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:09:18,155 - log.log - INFO - Epoch: [047/050]  Time: 22.977 (23.298)  Train Loss avg: 0.0411  Valid Loss avg: 0.0658  Train Acc@1 avg:  98.7654   Valid Acc@1 avg: 93.3333    LR: 0.0001
+2024-08-29 17:09:33,680 - log.log - INFO - train: [  19/40]  Time: 0.255 (0.654)  Loss:  0.0015 (0.1107)  Acc@1: 100.0000 (96.8750)  Acc@5: 100.0000 (99.3750)
+2024-08-29 17:09:40,404 - log.log - INFO - train: [  39/40]  Time: 0.472 (0.495)  Loss:  0.1482 (0.0742)  Acc@1: 87.5000 (97.5000)  Acc@5: 100.0000 (99.6875)
+2024-08-29 17:09:43,404 - log.log - INFO - Epoch: [048/050]  Time: 25.249 (23.338)  Train Loss avg: 0.0757  Valid Loss avg: 0.0435  Train Acc@1 avg:  97.5309   Valid Acc@1 avg: 100.0000    LR: 0.0001
+2024-08-29 17:09:57,520 - log.log - INFO - train: [  19/40]  Time: 0.276 (0.586)  Loss:  0.0680 (0.0409)  Acc@1: 100.0000 (99.3750)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:10:02,920 - log.log - INFO - train: [  39/40]  Time: 0.251 (0.428)  Loss:  0.0019 (0.0433)  Acc@1: 100.0000 (98.7500)  Acc@5: 100.0000 (100.0000)
+2024-08-29 17:10:05,621 - log.log - INFO - Epoch: [049/050]  Time: 22.217 (23.316)  Train Loss avg: 0.0429  Valid Loss avg: 0.0610  Train Acc@1 avg:  98.7654   Valid Acc@1 avg: 93.3333    LR: 0.0001
+2024-08-29 17:10:08,172 - log.log - INFO - save ckpt done! best acc:100.0, epoch:49
+2024-08-29 17:10:08,172 - log.log - INFO - Training time 0:19:28
