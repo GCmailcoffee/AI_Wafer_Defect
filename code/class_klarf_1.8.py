@@ -78,7 +78,7 @@ def process_klarf_file(klarf_file, model):
         if 'DefectRecordSpec' in line:
             # 更新 DefectRecordSpec 字段，并加入新内容
             defect_record_spec = stripped_line.replace(';', '').split()[1:]
-            defect_record_spec = update_defect_record_spec(defect_record_spec)
+            defect_record_spec = update_Columns(defect_record_spec)
             new_klarf_content.append('DefectRecordSpec ' + ' '.join(defect_record_spec) + ';\n')
         elif 'SummarySpec' in line:
             # 识别 SummarySpec 部分的开始
