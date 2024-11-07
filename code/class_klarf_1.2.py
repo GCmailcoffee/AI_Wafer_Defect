@@ -4,9 +4,12 @@ import torch
 from torchvision import transforms, models
 
 # 设置基础目录路径，包含 Klarf 文件和图像文件
-BASE_DIR = "/home/amhs/toolid/AYSEV01/to_ai"
-OUTPUT_DIR = "/home/amhs/toolid/img_classify/defectlink/AYSEV01"
-MODEL_PATH = '/home/amhs/recog/code/Result/2024-09-11_22-54-38/checkpoint_best.pth'
+BASE_DIR = r"D:\shixi\image classation\2024-11-4\Block_Etch"
+OUTPUT_DIR = r"D:\shixi\image classation"
+MODEL_PATH = r'D:\shixi\image classation\code\Result\2024-09-11_22-54-38\checkpoint_best.pth'
+#BASE_DIR = "/home/amhs/toolid/AYSEV01/to_ai"
+#OUTPUT_DIR = "/home/amhs/toolid/img_classify/defectlink/AYSEV01"
+#MODEL_PATH = '/home/amhs/recog/code/Result/2024-09-11_22-54-38/checkpoint_best.pth'
 
 # 如果输出目录不存在，则创建该目录
 os.makedirs(OUTPUT_DIR, exist_ok=True)
