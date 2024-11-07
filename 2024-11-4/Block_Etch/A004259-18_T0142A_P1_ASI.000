@@ -1,0 +1,540 @@
+FileVersion 1 2;
+FileTimestamp 11-04-24 15:31:28;
+InspectionStationID "NONE" "PUMA9550-V2" "AYDFD01";
+SampleType WAFER;
+ResultTimestamp 07-06-24 19:38:14;
+LotID "A004259";
+SampleSize 1 300;
+DeviceID "T0142A";
+SetupID "T0142A_P1_ASI" 07-06-24 15:10:58;
+StepID "P1_ASI";
+SampleOrientationMarkType NOTCH;
+OrientationMarkLocation DOWN;
+DiePitch 2.5440161000e+04 3.2860205000e+04;
+DieOrigin 0.0000000000e+00 0.0000000000e+00;
+WaferID "18";
+Slot 18;
+ScribeID "A004259#18";
+SampleCenterLocation 1.6267506000e+04 1.3521775000e+04;
+ClassLookup 258
+  0 "No Review"
+  1 "Nuisance"
+  2 "New defect"
+  3 "Block_Etch"
+  4 "Partial_Etch"
+  5 "Buried_PD"
+  6 "Surface_PD"
+  7 "Tiny_PD"
+  8 "Discolor"
+  9 "Micro_SC"
+  10 "Macro_SC"
+  11 "AA_Block_Etch"
+  12 "Poly_Block_Etch"
+  13 "Residue"
+  14 "Bump"
+  15 "Ball_Defect"
+  16 "Cone"
+  17 "OX_Loss"
+  18 "Defocus"
+  19 "Bridge"
+  20 "Peeling"
+  21 "Prelayer_Defect"
+  22 "Pat_Fail"
+  23 "Scratch"
+  24 "Repeating"
+  25 "Poor_Coating"
+  26 "Collapse"
+  27 "Void:27"
+  28 "Concave"
+  29 "Damage"
+  30 "PR_Damage"
+  31 "Slice"
+  32 "Larger_Particle"
+  33 "Flake"
+  34 "Hole"
+  35 "Over Etch"
+  36 "SIN_Residue"
+  37 "DEV_Residue"
+  38 "AA_Side_Wall_Residue"
+  39 "AA_Residue"
+  40 "AA_Buried PD"
+  41 "Oil_ball"
+  42 "DEV_Bridge"
+  43 "43"
+  44 "44"
+  45 "45"
+  46 "46"
+  47 "47"
+  48 "48"
+  49 "49"
+  50 "Poly_Residue"
+  51 "PR_Residue"
+  52 "Polymer_Residue"
+  53 "Cu_Residue"
+  54 "W_Residue"
+  55 "Slurry_Residue"
+  56 "Water_Mark"
+  57 "Condense"
+  58 "Bridge_FM"
+  59 "Over_polish"
+  60 "Crater"
+  61 "Shift"
+  62 "Bubble"
+  63 "Lineopen"
+  64 "Shrink"
+  65 "Pits"
+  66 "COP"
+  67 "Cu_Missing"
+  68 "W_Missing"
+  69 "W_Recess"
+  70 "CU_Diffuse"
+  71 "OX_Damage"
+  72 "Cu_Damage"
+  73 "Poly_Damage"
+  74 "Corrosion"
+  75 "Roughness"
+  76 "Grain"
+  77 "Whisker"
+  78 "Galvanic"
+  79 "Arcing"
+  80 "Crack"
+  81 "Protrusion"
+  82 "Other"
+  83 "Hillock"
+  84 "Crystal"
+  85 "CT_Missing"
+  86 "OX_remain"
+  87 "Stacking fault"
+  88 "satellite"
+  89 "SlipLine"
+  90 "90"
+  91 "91"
+  92 "92"
+  93 "93"
+  94 "94"
+  95 "95"
+  96 "96"
+  97 "97"
+  98 "98"
+  99 "99"
+  100 "100"
+  101 "101"
+  102 "102"
+  103 "103"
+  104 "104"
+  105 "105"
+  106 "106"
+  107 "107"
+  108 "108"
+  109 "109"
+  110 "110"
+  111 "111"
+  112 "112"
+  113 "113"
+  114 "114"
+  115 "115"
+  116 "116"
+  117 "117"
+  118 "118"
+  119 "119"
+  120 "120"
+  121 "121"
+  122 "122"
+  123 "123"
+  124 "124"
+  125 "125"
+  126 "126"
+  127 "127"
+  128 "128"
+  129 "129"
+  130 "130"
+  131 "131"
+  132 "132"
+  133 "133"
+  134 "134"
+  135 "135"
+  136 "136"
+  137 "137"
+  138 "138"
+  139 "139"
+  140 "140"
+  141 "141"
+  142 "142"
+  143 "143"
+  144 "144"
+  145 "145"
+  146 "146"
+  147 "147"
+  148 "148"
+  149 "149"
+  150 "150"
+  151 "151"
+  152 "152"
+  153 "153"
+  154 "154"
+  155 "155"
+  156 "156"
+  157 "157"
+  158 "158"
+  159 "159"
+  160 "160"
+  161 "161"
+  162 "162"
+  163 "163"
+  164 "164"
+  165 "165"
+  166 "166"
+  167 "167"
+  168 "168"
+  169 "169"
+  170 "170"
+  171 "171"
+  172 "172"
+  173 "173"
+  174 "174"
+  175 "175"
+  176 "176"
+  177 "177"
+  178 "178"
+  179 "179"
+  180 "180"
+  181 "181"
+  182 "182"
+  183 "183"
+  184 "184"
+  185 "185"
+  186 "186"
+  187 "187"
+  188 "188"
+  189 "189"
+  190 "190"
+  191 "191"
+  192 "192"
+  193 "193"
+  194 "194"
+  195 "195"
+  196 "196"
+  197 "197"
+  198 "198"
+  199 "199"
+  200 "CRACK"
+  201 "CORROSION"
+  202 "Pad abnormal"
+  203 "PEELING"
+  204 "Metal abnormal"
+  205 "Prober mark damage"
+  206 "RESIDUE"
+  207 "P-Damage"
+  208 "B-Metal damage"
+  209 "B-Scratch & Contamination"
+  210 "SCRATCH"
+  211 "OTHERS"
+  212 "Particle"
+  213 "B-Slight SCcratch"
+  214 "Unclassification"
+  215 "GOOD"
+  216 "Void:216"
+  217 "Metal-Residue"
+  218 "Pin hole"
+  219 "Tape Residue"
+  220 "Misalignment"
+  221 "Grain"
+  222 "Roughness"
+  223 "Discolor"
+  224 "Damage"
+  225 "Contamination"
+  226 "PR Residue"
+  227 "Poor Coating"
+  228 "Missing Pattern/Defocus"
+  229 "Block Etch"
+  230 "Whisker"
+  231 "Polymer Residue"
+  232 "Prober Mark Shift"
+  233 "Missing Probe Mark"
+  234 "Repeating"
+  235 "Crater"
+  236 "Hillock"
+  237 "Pits"
+  238 "Crystal"
+  239 "Arcing"
+  240 "Film Non-Uniformity"
+  241 "CMP Scratch"
+  242 "Bubble"
+  243 "Chipping"
+  244 "Broken"
+  245 "Water Stains"
+  246 "Oxidation"
+  247 "Overetch"
+  248 "Breakdown"
+  249 "249"
+  250 "250"
+  251 "251"
+  252 "252"
+  253 "253"
+  254 "254"
+  255 "255"
+  256 "256"
+  9999 "9999"  ;
+OrientationInstructions "";
+InspectionTest 1;
+SampleTestPlan 62
+  -3 1 
+  1 1 
+  3 -1 
+  -4 -2 
+  -2 -2 
+  1 -3 
+  3 -3 
+  -1 3 
+  0 3 
+  3 3 
+  -3 2 
+  3 1 
+  0 -1 
+  -3 -2 
+  3 2 
+  -1 1 
+  -2 0 
+  0 0 
+  1 0 
+  5 0 
+  1 -1 
+  -1 -3 
+  1 3 
+  2 3 
+  -4 2 
+  -1 2 
+  -2 1 
+  0 1 
+  4 1 
+  -5 0 
+  2 0 
+  3 0 
+  4 0 
+  -2 -1 
+  2 -1 
+  -2 -3 
+  -2 2 
+  4 2 
+  -4 1 
+  -3 0 
+  -1 -2 
+  2 -2 
+  2 -3 
+  -2 3 
+  1 2 
+  2 2 
+  2 1 
+  -3 -1 
+  -1 -1 
+  0 -2 
+  1 -2 
+  -3 -3 
+  0 -3 
+  0 2 
+  5 1 
+  -4 0 
+  -1 0 
+  -4 -1 
+  4 -1 
+  5 -1 
+  3 -2 
+  4 -2 ;
+AreaPerTest 3.8949800000e+10;
+InspectedAreaOrigin 6.0000000000e-03 5.0000000000e-03;
+DefectRecordSpec 13 DEFECTID XREL YREL XINDEX YINDEX XSIZE YSIZE DEFECTAREA DSIZE CLASSNUMBER TEST IMAGECOUNT IMAGELIST ;
+DefectList;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00001.jpg";
+DefectList
+ 12 11112.606 10407.275 -2 3 2.812 3.840 10.800000 3.840 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00002.jpg";
+DefectList
+ 12 11112.606 10407.275 -2 3 2.812 3.840 10.800000 3.840 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00003.jpg";
+DefectList
+ 12 11112.606 10407.275 -2 3 2.812 3.840 10.800000 3.840 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00004.jpg";
+DefectList
+ 21 6945.886 19790.839 4 2 3.750 3.840 14.400000 3.840 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00005.jpg";
+DefectList
+ 21 6945.886 19790.839 4 2 3.750 3.840 14.400000 3.840 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00006.jpg";
+DefectList
+ 21 6945.886 19790.839 4 2 3.750 3.840 14.400000 3.840 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00007.jpg";
+DefectList
+ 23 5088.230 20600.759 2 2 2.812 3.200 9.000000 3.200 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00008.jpg";
+DefectList
+ 23 5088.230 20600.759 2 2 2.812 3.200 9.000000 3.200 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00009.jpg";
+DefectList
+ 23 5088.230 20600.759 2 2 2.812 3.200 9.000000 3.200 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00010.jpg";
+DefectList
+ 26 12167.294 11603.931 -3 2 2.812 3.200 9.000000 3.200 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00011.jpg";
+DefectList
+ 26 12167.294 11603.931 -3 2 2.812 3.200 9.000000 3.200 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00012.jpg";
+DefectList
+ 26 12167.294 11603.931 -3 2 2.812 3.200 9.000000 3.200 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00013.jpg";
+DefectList
+ 29 12254.482 7186.126 -3 2 6.562 12.800 84.000000 12.800 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00014.jpg";
+DefectList
+ 29 12254.482 7186.126 -3 2 6.562 12.800 84.000000 12.800 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00015.jpg";
+DefectList
+ 29 12254.482 7186.126 -3 2 6.562 12.800 84.000000 12.800 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00016.jpg";
+DefectList
+ 32 5014.167 2605.664 3 2 2.812 3.200 9.000000 3.200 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00017.jpg";
+DefectList
+ 32 5014.167 2605.664 3 2 2.812 3.200 9.000000 3.200 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00018.jpg";
+DefectList
+ 32 5014.167 2605.664 3 2 2.812 3.200 9.000000 3.200 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00019.jpg";
+DefectList
+ 50 16181.200 3040.543 2 1 3.750 7.680 28.800000 7.680 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00020.jpg";
+DefectList
+ 50 16181.200 3040.543 2 1 3.750 7.680 28.800000 7.680 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00021.jpg";
+DefectList
+ 50 16181.200 3040.543 2 1 3.750 7.680 28.800000 7.680 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00022.jpg";
+DefectList
+ 53 23204.952 1504.736 -4 1 3.750 5.760 21.600000 5.760 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00023.jpg";
+DefectList
+ 53 23204.952 1504.736 -4 1 3.750 5.760 21.600000 5.760 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00024.jpg";
+DefectList
+ 53 23204.952 1504.736 -4 1 3.750 5.760 21.600000 5.760 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00025.jpg";
+DefectList
+ 55 6689.012 29946.601 -5 0 5.625 8.960 50.400000 8.960 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00026.jpg";
+DefectList
+ 55 6689.012 29946.601 -5 0 5.625 8.960 50.400000 8.960 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00027.jpg";
+DefectList
+ 55 6689.012 29946.601 -5 0 5.625 8.960 50.400000 8.960 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00028.jpg";
+DefectList
+ 57 6239.481 28117.366 -3 0 2.812 2.560 7.200000 2.812 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00029.jpg";
+DefectList
+ 57 6239.481 28117.366 -3 0 2.812 2.560 7.200000 2.812 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00030.jpg";
+DefectList
+ 57 6239.481 28117.366 -3 0 2.812 2.560 7.200000 2.812 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00031.jpg";
+DefectList
+ 61 6464.012 22069.384 0 0 3.750 3.840 14.400000 3.840 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00032.jpg";
+DefectList
+ 61 6464.012 22069.384 0 0 3.750 3.840 14.400000 3.840 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00033.jpg";
+DefectList
+ 61 6464.012 22069.384 0 0 3.750 3.840 14.400000 3.840 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00034.jpg";
+DefectList
+ 68 724.167 12052.750 5 0 2.812 3.200 9.000000 3.200 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00035.jpg";
+DefectList
+ 68 724.167 12052.750 5 0 2.812 3.200 9.000000 3.200 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00036.jpg";
+DefectList
+ 68 724.167 12052.750 5 0 2.812 3.200 9.000000 3.200 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00037.jpg";
+DefectList
+ 73 16139.951 9189.834 -2 0 3.750 8.320 31.200000 8.320 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00038.jpg";
+DefectList
+ 73 16139.951 9189.834 -2 0 3.750 8.320 31.200000 8.320 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00039.jpg";
+DefectList
+ 73 16139.951 9189.834 -2 0 3.750 8.320 31.200000 8.320 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00040.jpg";
+DefectList
+ 76 3274.636 2789.306 5 0 3.750 3.840 14.400000 3.840 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00041.jpg";
+DefectList
+ 76 3274.636 2789.306 5 0 3.750 3.840 14.400000 3.840 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00042.jpg";
+DefectList
+ 76 3274.636 2789.306 5 0 3.750 3.840 14.400000 3.840 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00043.jpg";
+DefectList
+ 81 20971.357 30453.130 0 -1 2.812 6.400 18.000000 6.400 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00044.jpg";
+DefectList
+ 81 20971.357 30453.130 0 -1 2.812 6.400 18.000000 6.400 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00045.jpg";
+DefectList
+ 81 20971.357 30453.130 0 -1 2.812 6.400 18.000000 6.400 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00046.jpg";
+DefectList
+ 91 11428.543 22464.415 4 -1 4.687 14.080 66.000000 14.080 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00047.jpg";
+DefectList
+ 91 11428.543 22464.415 4 -1 4.687 14.080 66.000000 14.080 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00048.jpg";
+DefectList
+ 91 11428.543 22464.415 4 -1 4.687 14.080 66.000000 14.080 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00049.jpg";
+DefectList
+ 98 12229.168 18794.440 3 -1 4.687 6.400 30.000000 6.400 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00050.jpg";
+DefectList
+ 98 12229.168 18794.440 3 -1 4.687 6.400 30.000000 6.400 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00051.jpg";
+DefectList
+ 98 12229.168 18794.440 3 -1 4.687 6.400 30.000000 6.400 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00052.jpg";
+DefectList
+ 106 17409.794 9494.795 4 -1 2.812 3.840 10.800000 3.840 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00053.jpg";
+DefectList
+ 106 17409.794 9494.795 4 -1 2.812 3.840 10.800000 3.840 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00054.jpg";
+DefectList
+ 106 17409.794 9494.795 4 -1 2.812 3.840 10.800000 3.840 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00055.jpg";
+DefectList
+ 120 14542.450 26506.003 4 -2 3.750 4.480 16.800000 4.480 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00056.jpg";
+DefectList
+ 120 14542.450 26506.003 4 -2 3.750 4.480 16.800000 4.480 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00057.jpg";
+DefectList
+ 120 14542.450 26506.003 4 -2 3.750 4.480 16.800000 4.480 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00058.jpg";
+DefectList
+ 136 10982.294 9806.011 0 -2 2.812 3.840 10.800000 3.840 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00059.jpg";
+DefectList
+ 136 10982.294 9806.011 0 -2 2.812 3.840 10.800000 3.840 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00060.jpg";
+DefectList
+ 136 10982.294 9806.011 0 -2 2.812 3.840 10.800000 3.840 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00061.jpg";
+DefectList
+ 145 8048.855 31363.328 3 -3 4.687 8.960 42.000000 8.960 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00062.jpg";
+DefectList
+ 145 8048.855 31363.328 3 -3 4.687 8.960 42.000000 8.960 3 1 1 1 1 0;
+TiffFileName "A004259-18_T0142A_P1_ASI.000_00063.jpg";
+DefectList
+ 145 8048.855 31363.328 3 -3 4.687 8.960 42.000000 8.960 3 1 1 1 1 0;
+SummarySpec 5
+  TESTNO    NDEFECT    DEFDENSITY    NDIE    NDEFDIE  ;
+SummaryList 
+  1    158    4.0565085411e-01    62    57  ;
+EndOfFile;
