@@ -28,10 +28,10 @@ def get_args_parser(add_help=True):
 
     parser = argparse.ArgumentParser(description="PyTorch Classification Training", add_help=add_help)
 
-    parser.add_argument("--data-path", default=r"D:\shixi\training", type=str, help="dataset path")
+    parser.add_argument("--data-path", default=r"D:\img_classification\AI_Wafer_Defect\Train_Data", type=str, help="dataset path")
     parser.add_argument("--model", default="resnet50", type=str,
                         help="model name; resnet50/convnext/convnext-tiny")
-    parser.add_argument("--device", default="cpu", type=str, help="device (Use cuda or cpu Default: cuda)")
+    parser.add_argument("--device", default="cuda", type=str, help="device (Use cuda or cpu Default: cuda)")
     parser.add_argument(
         "-b", "--batch-size", default=8, type=int, help="images per gpu, the total batch size is $NGPU x batch_size"
     )
@@ -134,13 +134,13 @@ def main(args):
 
     model_name = model._get_name()
 
-
+    num_classes = 7
     if 'ResNet' in model_name:
         #  灰度图，输入是1通道， RGB图是3，没有彩色很难识别
         model.conv1 = nn.Conv2d(3, 64, (7, 7), stride=(2, 2), padding=(3, 3), bias=False)
         num_ftrs = model.fc.in_features  # 替换最后一层
         #model.fc = nn.Linear(num_ftrs, 2)
-        model.fc = nn.Linear(num_ftrs, 73)
+        model.fc = nn.Linear(num_ftrs, num_classes)
     elif 'ConvNeXt' in model_name:
         # 替换第一层： 因为预训练模型输入是3通道，而本案例是灰度图，输入是1通道
         num_kernel = 128 if args.model == 'convnext' else 96
@@ -234,7 +234,7 @@ def main(args):
 
 #classes = ["212", "206", "203", "223", "216", "70", "1", "13", "248", "5", "82", "29", "111", "22", "76", "6", "14", "58", "7", "32", "204", "4", "60", "77", "16", "20", "34", "99", "217", "253", "52", "210", "213", "2", "18", "211", "15", "19", "3", "37", "224", "205", "39", "38", "50", "9", "42", "102", "214", "11", "256", "31", "207", "57", "40", "56", "27", "62", "23", "51", "88", "65", "200", "87", "12", "218", "249", "227", "85", "21", "17", "83", "79"]
 #classes = ["Center", "Donut", "Edge-Loc", "Edge-Ring", "Loc", "Near-full", "none", "Random", "Scratch"]
-classes = ["Buried_PD", "Hole", "Poly_Residue", "Block_Etch", "Damage", "Residue", "Micro_sc"]
+classes = ["Block_Etch", "Buried_PD", "Damage", "Hole", "Micro_sc", "Poly_Residue", "Residue"]
 
 if __name__ == "__main__":
     args = get_args_parser().parse_args()

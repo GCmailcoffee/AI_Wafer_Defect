@@ -231,8 +231,8 @@ class ModelTrainer(object):
             outputs = model(inputs)
             optimizer.zero_grad()
 
-            print(outputs.cpu())
-            print(labels.cpu())
+            #print(outputs.cpu())
+            #print(labels.cpu())
             loss = loss_f(outputs.cpu(), labels.cpu())
             loss.backward()
             optimizer.step()
